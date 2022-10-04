@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/c0aaf3970f.js" crossorigin="anonymous"></script>
+  <meta charset="utf-8">
+  <title>Yazan Sharawi - Movie Booking</title>
+  <link rel="stylesheet" href="/static/css/Movie_booking.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar navbar-style">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#micon">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="/"><img class="logo" src="/static/logo/Mylogo.jpeg"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="micon">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a   target="_blank" class="page_names" href="/">Work</a></li>
+            <li><a   target="_blank" class="page_names" href="/about">About</a></li>
+            <li><a   target="_blank" class="page_names" href="/static/cv/Yazan Sharawi Cv.pdf">Resume</a></li>
+            <li><a   target="_blank" class="page_names" href="https://github.com/yazansharawi">GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <!--&#8593--> Top
+    </button>
+    <div class="div1">
+      <div class="container">
+        <div class="col-sm-12">
+
+          <img src="/static/images/Movie_booking/Background.png" alt="">
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <div class="div2">
+      <div class="container">
+        <div class="col-sm-3">
+        </div>
+        <div class="col-sm-6">
+          <h3>Project Vision</h3>
+          <br>
+          <p>
+            As technology is more and more involved in our daily life,
+            things like shopping nowadays are done on mobile phones and with
+            For this project, we wanted to do the same thing, but with movies, our goal
+            here is to make it easier for people to buy tickets online in easy and
+            cheap way.
+          </p>
+        </div>
+        <div class="col-sm-3">
+        </div>
+      </div>
+    </div>
+
+    <div class="div3">
+      <div class="container">
+        <div class="col-sm-3">
+        </div>
+        <div class="col-sm-6">
+          <h3>Kick off</h3>
+          <br>
+          <p>
+            At the start of this project, I asked myself four important
+            questions, Who is going to use our app?,why would they use it?
+            how can our app help them? and how we can give them the best
+            experience possible?, after analyzing the results I found out that
+            many people would like to use the app and the problems they all
+            have in common is that they lack of time.
+          </p>
+        </div>
+        <div class="col-sm-3">
+        </div>
+      </div>
+    </div>
+
+    <div class="div4">
+      <div class="container">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-5" id="Qsection1">
+          <p>1) Who is our primary audience ?</p>
+          <br>
+          <br>
+          <br>
+          <p>2) why would they use them ?</p>
+        </div>
+        <div class="col-sm-6" id="Qsection2">
+          <p>3) how can our app help them ? </p>
+          <br>
+          <br>
+          <br>
+          <p>4) we can give them the best experience possible ?</p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="div5">
+      <div class="container">
+        <div class="col-sm-3">
+        </div>
+        <div class="col-sm-6">
+          <h3>Preliminary Ideation</h3>
+          <br>
+          <p>
+            As usual, I use preliminary ideation to know more about our users
+            and to take a general idea of how they feel about the app, and that
+            will make it easier for us to set the foundation of this project.
+          </p>
+        </div>
+        <div class="col-sm-3">
+        </div>
+      </div>
+    </div>
+
+
+    <div class="div6">
+      <div class="container">
+        <div class="col-sm-12">
+          <img src="/static/images/Movie_booking/ideation(movie_app).jpeg" alt="board image">
+        </div>
+      </div>
+    </div>
+
+    <div class="div7">
+      <div class="container">
+        <div class="col-sm-3">
+        </div>
+        <div class="col-sm-6">
+          <h3>Research Insights</h3>
+          <br>
+          <p>
+            We analyzed the questions we asked the user earlier in the process,
+            we also contended another questionnaire and we asked the users multiple
+            questions, and here are our insights.
+          </p>
+        </div>
+        <div class="col-sm-3">
+        </div>
+      </div>
+    </div>
+
+    <div class="div8">
+      <div class="container">
+        <div class="col-sm-6">
+          <div style"display:inline-block">
+            <i id="like_img" class="fa fa-thumbs-up fa-5x" aria-hidden="true"></i>
+
+            <div style="display: inline-block">
+              <p id="like_img_text">
+                <span>80 % of the users</span> found the app useful.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div style"display:inline-block">
+            <i id="people_img" class="fa-solid fa-people-group fa-5x"></i>
+            <div style="display: inline-block">
+              <p id="people_img_text">
+                <span>More than 60 %</span>
+                said that having a community for movies is helpful.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="div9">
+      <div class="container">
+        <div class="col-sm-12" id="Users_headline">
+          <h3>Meet the users</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="div10_img2">
+      <div class="container">
+        <div class="col-sm-12">
+          <img src="/static/images/Movie_booking/Persona1.png" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="div10_img2">
+      <div class="container">
+        <div class="col-sm-12">
+          <img src="/static/images/Movie_booking/Persona2.png" alt="">
+        </div>
+
+      </div>
+    </div>
+
+    <div class="div11">
+      <div class="container">
+        <div class="col-sm-3">
+        </div>
+        <div class="col-sm-6">
+          <h3>Key Path Scenarios</h3>
+          <br>
+          <p>
+            here we have two primary key path scenario, we identified two
+            key path scenarios when using our app. the user will experience as
+            while planning an to buy a tickets or just to see what is trending.
+          </p>
+          <p>
+            The scope of the product allowed us to focus more on these two pathways as there
+            aren't any notable validation scenarios other than entering a familiar settings screen.
+          </p>
+        </div>
+        <div class="col-sm-3">
+        </div>
+      </div>
+    </div>
+
+    <div class="div12_img1">
+      <div class="container">
+        <div class="col-sm-">
+          <img src="/static/images/Movie_booking/story1(movie_app).jpeg" alt="story">
+        </div>
+      </div>
+    </div>
+
+    <div class="div12_img2">
+      <div class="container">
+        <div class="col-sm-">
+          <img src="/static/images/Movie_booking/story2(movie_app).jpeg" alt="story">
+        </div>
+      </div>
+    </div>
+
+    <div class="div13">
+      <div class="container">
+        <div class="col-sm-12">
+          <h3>Information Architecture</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="div14">
+      <div class="container">
+        <div class="col-sm-12">
+          <img src="/static/images/Movie_booking/AI(movie app).png" alt="IA for books app">
+        </div>
+      </div>
+    </div>
+
+    <div class="div15">
+      <div class="container">
+        <div class="col-sm-5">
+          <h3>P&P Wireframes</h3>
+          <br>
+          <p>
+            Before going through this process, we didn't have a clear idea
+            on how the app will look like and after some drawings,skitches and
+            really hard time.We finally formed a first look at what the app will
+            look like and based on the spark where there for more ideas and that
+            helped as a lot.
+
+          </p>
+        </div>
+        <div class="col-sm-7" id="wireframes_photos">
+          <img src="/static/images/Movie_booking/wireframe(movie_app).jpeg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="div16">
+      <div class="container">
+        <div class="col-sm-7" id="wireframes1_photos">
+          <img src="/static/images/Movie_booking/Highdifd(move_app).jpeg" alt="">
+        </div>
+        <div class="col-sm-5">
+          <h3>Preliminary Wireframes</h3>
+          <br>
+          <p>
+            Creating a higher fidelity but still fairly preliminary
+            version of our wireframes, we were able to workout
+            some of the technical issues that would not be viable in
+            Convene, as well as tone down our "blue-sky" screens
+            into more realisitic ones. It was important for us to
+            start big and scale down so that we could work around
+            the features that we really wanted to have, rather than
+            working upwards and maybe missing something that would've
+            been really cool to see as a user.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="div17">
+      <div class="container">
+        <div class="col-sm-12">
+          <h3>Final Design.</h3>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="div18">
+      <div class="container">
+        <div class="col-sm-12">
+          <video width="320" height="600" loop muted autoplay="autoplay">
+            <source src="/static/videos/movie_app.mov" type="video/mp4">
+          </video>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="div18_1">
+      <div class="container">
+        <div class="col-sm-12">
+          <h3>Coding</h3>
+        </div>
+
+      </div>
+    </div>
+    
+    <div class="div18_2">
+      <div class="container">
+        <div class="col-sm-12">
+          <p>Here you can acces the code for this app, I did code it using flutter(dart) only front-end.</p>
+          <br>
+          <br>
+          <p>The link for the code<a  target="_blank" href="https://github.com/yazansharawi/E_ticket_app.git"> Click me</a></p>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="div19">
+      <div class="container">
+        <div class="col-sm-12" id="coding">
+          <h3>Style Guide</h3>
+          <br>
+          <p>
+            Choosing the right color is important for every design, because
+            you want as a designer to show your skills and show your identity
+            to people.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="div20">
+      <div class="container">
+        <div class="col-sm-12" id="style_guide">
+          <img src="/static/images/Movie_booking/Styleguide(movie_app).jpeg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="div21">
+      <div class="container">
+        <div class="col-sm-12" id="take_aways">
+          <h3>Takeaways</h3>
+          <br>
+          <p>
+            This project is so important to me as it's
+            a possible way to show people my skills and
+            share my work with them; to gainexperience
+            and meet new people.
+          </p>
+          <a  target="_blank" href="/static/pdfs/My E-ticket Project .pdf"><button type="button" name="button">Check the project pdf !</button></a>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <footer>
+      <div class="foo">
+        <div class="row">
+          <div class="col-sm-12">
+            <p class="social_media1">Interested in working together? I'd love to hear from you.</p>
+            <div class="social_media2">
+              <a   target="_blank" id="linkedIn" href="https://www.linkedin.com/in/yazan-sharawi-ba435a211/">linkedIn <span id="linkedIn_span">->,</span></a>
+              <a   target="_blank" id="instagram" href="https://www.instagram.com/yazan_sharawi_/">instagram <span id="instagram_span">->,</span></a>
+              <a   target="_blank" id="Facebook" href="https://www.facebook.com/yazan.sharawi.10/">Facebook <span id="facebook_span">->,</span></a>
+              <a  target="_blank" id="GitHub" href="https://github.com/yazansharawi">GitHub <span id="Github_span">->,</span></a>
+            </div>
+            <p class="social_media3">yazansharawi25@gmail.com</p>
+            <p class="social_media4">© 2022 Yazan Sharawi </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </header>
+  <script>
+    var mybutton = document.getElementById("myBtn");
+    window.onscroll = function() {
+      scrollFunction()
+    };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+
+</body>
+
+</html>

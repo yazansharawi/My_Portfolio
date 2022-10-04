@@ -1,0 +1,788 @@
+/* ------------------------------------navbar section ------------------------------------ */
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+html {
+  overflow-x: hidden;
+}
+
+.header{
+  height: 100vh;
+}
+.page_names:hover{
+  border-bottom: 1px solid #333333;
+}
+.navbar-style{
+  box-shadow: 0 5px 10px #efefef;
+}
+.logo{
+  height: 48px;
+  padding: 2px 10px;
+}
+.icon-bar{
+  background: darkorange;
+}
+li a{
+  color:#333;
+}
+#myBtn {
+  width: 60px;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #ACACAC;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+/* ------------------------------------Hello there section ------------------------------------ */
+#photo_and_myname{
+  padding-bottom: 80px;
+  padding-top: 70px;
+}
+.div1 img{
+  height: 400px;
+}
+#header{
+  padding-left: 30px;
+}
+.My_Name_Header{
+  font-size: 25px;
+}
+
+hr.divider {
+  margin-top: 15px;
+ border-width: 2px;
+}
+
+.big-text{
+  color:black;
+  font-size: 60px;
+  margin:20px 0;
+}
+
+.intro{
+  font-size: 40px;
+}
+
+p{
+  font-size: 25px;
+}
+
+a.btn{
+  margin-top: 20px;
+  padding:10px;
+  border-radius:20px;
+}
+
+a.btn-first{
+  width:300px;
+  background-color: white;
+  color: black;
+  border: 3px solid darkblue;
+}
+a.btn-first:hover{
+  background-color: darkblue;
+  color:white;
+}
+
+a.btn-second{
+  margin-left: 20px;
+  width:150px;
+  color: black;
+  background: transparent;
+  border: 3px solid darkred;
+}
+a.btn-second:hover{
+  background-color: darkred;
+  color:white;
+}
+
+.img-responsive{
+  width: 350;
+  height: 250;
+}
+@media screen and (max-width: 767px) {
+  .img-responsive{
+    text-align: center;
+  }
+  #photo_and_myname{
+    padding-top: 20px;
+  }
+  a.btn-second{
+    width:300px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+  }
+  #photo_and_myname,hr,#project_title_text,#project_section,footer{
+    text-align: center;
+  }
+}
+/* ------------------------------------Card section (my portfolio) ------------------------------------ */
+
+.card1{
+  color:#383838;
+  max-width: 500px;
+  background-image: url("/static/images/mainpage/main\(main\).jpeg");
+  background-color: black;
+  background-size: 300px 100px;
+  background-size:cover;
+  padding:5rem 0 0;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: transform 500ms ease;
+  margin-top: 22px;
+}
+
+
+.card1:hover{
+  transform: scale(1.05);
+
+}
+
+.card1-content{
+  --padding:1.5rem;
+  padding: var(--padding);
+  background-color:  #F4F4F4;;
+}
+
+
+@media (hover){
+  .card1{
+    padding-top: 20px;
+
+  }
+  .card1-content{
+    transform: translateY(65%);
+    transition: transform 500ms ease;
+  }
+  .card1-content > *:not(.card1-title){
+    opacity: 0;
+    transition: opacity 500ms linear;
+  }
+
+  .card1:hover .card1-content{
+    transform: translateY(0);
+      transition-delay: 500ms;
+  }
+
+  .card1:hover .card1-content > *:not(.card1-title){
+    opacity: 1;
+    transition-delay: 1000ms;
+  }
+
+  .card1-title::after{
+    transform: scaleX(0);
+  }
+}
+
+
+.card1-title{
+  width: max-content;
+  position: relative;
+}
+
+
+
+.card1-title::after{
+  content: "";
+  position: absolute;
+  height: 4px;
+  left: calc(var(--padding) * -1);
+  bottom: -4px;
+  background: black;
+  width: calc(100% + var(--padding));
+  transform-origin: left;
+  transition: transform 500ms ease;
+
+}
+
+.card1:hover .card1-title::after{
+  transform: scaleX(1);
+}
+
+.button{
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  color:black;
+  background-color: white;
+  padding: 0.5em 1.25em;
+  border-radius: 0.5rem;
+  text-decoration:none
+}
+
+.button:hover,button:focus{
+  background-color: orange;
+    text-decoration:none;
+    background-color: black;
+    color:white;
+}
+
+/* ------------------------------------Card section (book App) ------------------------------------ */
+
+.card2{
+  color:#383838;
+  max-width: 500px;
+  background-image: url("/static/images/mainpage/main\(gas\).jpeg");
+  background-color: black;
+  background-size: 300px 100px;
+  background-size:cover;
+  padding:5rem 0 0;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: transform 500ms ease;
+}
+
+.card2:hover{
+  transform: scale(1.05);
+
+}
+
+.card2-content{
+  --padding:1.5rem;
+  padding: var(--padding);
+  background-color:  #F4F4F4;;
+}
+
+
+@media (hover){
+  .card2-content{
+    transform: translateY(65%);
+    transition: transform 500ms ease;
+  }
+  .card2-content > *:not(.card2-title){
+    opacity: 0;
+    transition: opacity 500ms linear;
+  }
+
+  .card2:hover .card2-content{
+    transform: translateY(0);
+      transition-delay: 500ms;
+  }
+
+  .card2:hover .card2-content > *:not(.card2-title){
+    opacity: 1;
+    transition-delay: 1000ms;
+  }
+
+  .card2-title::after{
+    transform: scaleX(0);
+  }
+}
+
+
+.card2-title{
+  width: max-content;
+  position: relative;
+}
+
+
+
+.card2-title::after{
+  content: "";
+  position: absolute;
+  height: 4px;
+  left: calc(var(--padding) * -1);
+  bottom: -4px;
+  background: black;
+  width: calc(100% + var(--padding));
+  transform-origin: left;
+  transition: transform 500ms ease;
+
+}
+
+.card2:hover .card2-title::after{
+  transform: scaleX(1);
+}
+
+.button{
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  color:black;
+  background-color: white;
+  padding: 0.5em 1.25em;
+  border-radius: 0.5rem;
+  text-decoration:none
+}
+
+.button:hover,button:focus{
+  background-color: orange;
+    text-decoration:none;
+    background-color: black;
+    color:white;
+}
+
+#title{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#role{
+  font-size: 20px;
+}
+
+#time{
+  font-size: 20px;
+}
+
+/* ------------------------------------Card section (Bike App) ------------------------------------ */
+
+
+.card3{
+  color:#383838;
+  max-width: 500px;
+  background-image: url("/static/images/mainpage/main\(e-ticket\).jpeg");
+  background-color: black;
+  background-size: 300px 100px;
+  background-size:cover;
+  padding:5rem 0 0;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: transform 500ms ease;
+  margin-top: 33px;
+}
+
+.card3:hover{
+  transform: scale(1.05);
+
+}
+
+.card3-content{
+  --padding:1.5rem;
+  padding: var(--padding);
+  background-color:  #F4F4F4;;
+}
+
+
+@media (hover){
+  .card3-content{
+    transform: translateY(65%);
+    transition: transform 500ms ease;
+  }
+  .card3-content > *:not(.card3-title){
+    opacity: 0;
+    transition: opacity 500ms linear;
+  }
+
+  .card3:hover .card3-content{
+    transform: translateY(0);
+      transition-delay: 500ms;
+  }
+
+  .card3:hover .card3-content > *:not(.card3-title){
+    opacity: 1;
+    transition-delay: 1000ms;
+  }
+
+  .card3-title::after{
+    transform: scaleX(0);
+  }
+}
+
+
+.card3-title{
+  width: max-content;
+  position: relative;
+}
+
+
+
+.card3-title::after{
+  content: "";
+  position: absolute;
+  height: 4px;
+  left: calc(var(--padding) * -1);
+  bottom: -4px;
+  background: black;
+  width: calc(100% + var(--padding));
+  transform-origin: left;
+  transition: transform 500ms ease;
+
+}
+
+.card3:hover .card3-title::after{
+  transform: scaleX(1);
+}
+
+.button{
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  color:black;
+  background-color: white;
+  padding: 0.5em 1.25em;
+  border-radius: 0.5rem;
+  text-decoration:none
+}
+
+.button:hover,button:focus{
+  background-color: orange;
+    text-decoration:none;
+    background-color: black;
+    color:white;
+}
+
+/* ------------------------------------Card section (movie App) ------------------------------------ */
+
+
+.card4{
+  color:#383838;
+  max-width: 500px;
+  background-image: url("/static/images/mainpage/main\(book\).jpeg");
+  background-color: black;
+  background-size: 300px 100px;
+  background-size:cover;
+  padding:5rem 0 0;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: transform 500ms ease;
+}
+
+.card4:hover{
+  transform: scale(1.05);
+
+}
+
+.card4-content{
+  --padding:1.5rem;
+  padding: var(--padding);
+  background-color:  #F4F4F4;;
+}
+
+
+@media (hover){
+  .card4-content{
+    transform: translateY(65%);
+    transition: transform 500ms ease;
+  }
+  .card4-content > *:not(.card4-title){
+    opacity: 0;
+    transition: opacity 500ms linear;
+  }
+
+  .card4:hover .card4-content{
+    transform: translateY(0);
+      transition-delay: 500ms;
+  }
+
+  .card4:hover .card4-content > *:not(.card4-title){
+    opacity: 1;
+    transition-delay: 1000ms;
+  }
+
+  .card4-title::after{
+    transform: scaleX(0);
+  }
+}
+
+
+.card4-title{
+  width: max-content;
+  position: relative;
+}
+
+
+
+.card4-title::after{
+  content: "";
+  position: absolute;
+  height: 4px;
+  left: calc(var(--padding) * -1);
+  bottom: -4px;
+  background: black;
+  width: calc(100% + var(--padding));
+  transform-origin: left;
+  transition: transform 500ms ease;
+
+}
+
+.card4:hover .card4-title::after{
+  transform: scaleX(1);
+}
+
+.button{
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  color:black;
+  background-color: white;
+  padding: 0.5em 1.25em;
+  border-radius: 0.5rem;
+  text-decoration:none
+}
+
+.button:hover,button:focus{
+  background-color: orange;
+    text-decoration:none;
+    background-color: black;
+    color:white;
+}
+
+/* ------------------------------------Card section (Gym webiste) ------------------------------------ */
+
+
+.card5{
+  color:#383838;
+  max-width: 500px;
+  background-image: url("/static/images/mainpage/main\(sviler_gym\).jpeg");
+  background-color: black;
+  background-size: 300px 100px;
+  background-size:cover;
+  padding:5rem 0 0;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: transform 500ms ease;
+  margin-top: 20px;
+}
+
+.card5:hover{
+  transform: scale(1.05);
+
+}
+
+.card5-content{
+  --padding:1.5rem;
+  padding: var(--padding);
+  background-color:  #F4F4F4;;
+}
+
+
+@media (hover){
+  .card5-content{
+    transform: translateY(65%);
+    transition: transform 500ms ease;
+  }
+  .card5-content > *:not(.card5-title){
+    opacity: 0;
+    transition: opacity 500ms linear;
+  }
+
+  .card5:hover .card5-content{
+    transform: translateY(0);
+      transition-delay: 500ms;
+  }
+
+  .card5:hover .card5-content > *:not(.card5-title){
+    opacity: 1;
+    transition-delay: 1000ms;
+  }
+
+  .card5-title::after{
+    transform: scaleX(0);
+  }
+}
+
+
+.card5-title{
+  width: max-content;
+  position: relative;
+}
+
+
+
+.card5-title::after{
+  content: "";
+  position: absolute;
+  height: 4px;
+  left: calc(var(--padding) * -1);
+  bottom: -4px;
+  background: black;
+  width: calc(100% + var(--padding));
+  transform-origin: left;
+  transition: transform 500ms ease;
+
+}
+
+.card5:hover .card5-title::after{
+  transform: scaleX(1);
+}
+
+.button{
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  color:black;
+  background-color: white;
+  padding: 0.5em 1.25em;
+  border-radius: 0.5rem;
+  text-decoration:none
+}
+
+.button:hover,button:focus{
+  background-color: orange;
+    text-decoration:none;
+    background-color: black;
+    color:white;
+}
+
+/* ------------------------------------Card section (Gas webiste) ------------------------------------ */
+
+
+.card6{
+  color:#383838;
+  max-width: 500px;
+  background-image: url("/static/images/mainpage/main\(ride\ in\ the\ city\).jpeg");
+  background-size: 300px 100px;
+  background-size:cover;
+  padding:5rem 0 0;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: transform 500ms ease;
+}
+
+.card6:hover{
+  transform: scale(1.05);
+
+}
+
+.card6-content{
+  --padding:1.5rem;
+  padding: var(--padding);
+  background-color:  #F4F4F4;;
+}
+
+
+@media (hover){
+  .card6-content{
+    transform: translateY(65%);
+    transition: transform 500ms ease;
+  }
+  .card6-content > *:not(.card6-title){
+    opacity: 0;
+    transition: opacity 500ms linear;
+  }
+
+  .card6:hover .card6-content{
+    transform: translateY(0);
+      transition-delay: 500ms;
+  }
+
+  .card6:hover .card6-content > *:not(.card6-title){
+    opacity: 1;
+    transition-delay: 1000ms;
+  }
+
+  .card6-title::after{
+    transform: scaleX(0);
+  }
+}
+
+
+.card6-title{
+  width: max-content;
+  position: relative;
+}
+
+
+
+.card6-title::after{
+  content: "";
+  position: absolute;
+  height: 4px;
+  left: calc(var(--padding) * -1);
+  bottom: -4px;
+  background: black;
+  width: calc(100% + var(--padding));
+  transform-origin: left;
+  transition: transform 500ms ease;
+
+}
+
+.card6:hover .card6-title::after{
+  transform: scaleX(1);
+}
+
+.button{
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  color:black;
+  background-color: white;
+  padding: 0.5em 1.25em;
+  border-radius: 0.5rem;
+  text-decoration:none
+}
+
+.button:hover,button:focus{
+  background-color: orange;
+    text-decoration:none;
+    background-color: black;
+    color:white;
+}
+
+
+
+/* ------------------------------------footer ------------------------------------ */
+footer{
+  box-shadow: 0 5px 20px #efefef;
+  margin-top: 40px;
+}
+.foo{
+  box-shadow: 0 5px 10px #efefef;
+  height: 300px;
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+}
+#linkedIn{
+  font-size: 20px;
+  color: black;
+  text-decoration:none;
+}
+#instagram{
+  font-size: 20px;
+color: black;
+  text-decoration:none;
+}
+#Facebook{
+  font-size: 20px;
+color: black;
+  text-decoration:none;
+}
+#GitHub{
+  font-size: 20px;
+  color: black;
+  text-decoration:none;
+}
+#linkedIn_span{
+  color: #5AC8FA;
+  text-decoration:none;
+}
+#instagram_span{
+  color: #EA4260;
+  text-decoration:none;
+}
+#facebook_span{
+  color: #F5C142;
+  text-decoration:none;
+}
+#Github_span{
+  color:#9B7BF6;
+  text-decoration:none;
+}
+.social_media1{
+  font-size: 20px;
+}
+.social_media2{
+  padding-top: 20px;
+  display: inline-block;
+}
+.social_media3{
+  padding-top: 30px;
+  font-size: 20px;
+}
+.social_media4{
+  padding-top: 15px;
+  font-size: 15px;
+}

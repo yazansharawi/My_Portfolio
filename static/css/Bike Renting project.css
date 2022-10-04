@@ -1,0 +1,659 @@
+/* ------------------------------------navbar section ------------------------------------ */
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+p{
+  color:#ACACAC;
+}
+h3{
+  color:#383838;
+  font-weight: bold;
+}
+span{
+  color:black;
+}
+html{
+    overflow-x:hidden;
+}
+.header{
+  height: 100vh;
+}
+.page_names:hover{
+  border-bottom: 1px solid #333333;
+}
+.navbar-style{
+  box-shadow: 0 5px 10px #efefef;
+}
+.logo{
+  height: 48px;
+  padding: 2px 10px;
+}
+.icon-bar{
+  background: darkorange;
+}
+li a{
+  color:#333;
+}
+#myBtn {
+  width: 60px;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #ACACAC;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+/* ------------------------------------ Div's section ------------------------------------ */
+
+/* ------------------------------------ Div1 ------------------------------------ */
+.div1 {
+  height: auto;
+  text-align: center;
+}
+
+.div1 img {
+  height: auto;
+  width: 100%;
+  max-width: 3000px;
+}
+/* ------------------------------------ Div2 ------------------------------------ */
+
+.div2{
+  padding-bottom: 30px;
+  padding-top: 20px;
+  margin-top: 30px;
+  text-align: left;
+  height: auto;
+}
+.div2 h3{
+  font-size: 30px;
+  font-weight: bold;
+}
+.div2 p{
+  font-size: 20px;
+}
+
+
+
+/* ------------------------------------ Div3 ------------------------------------ */
+.div3{
+  padding-bottom: 40px;
+height: auto;
+text-align: center;
+}
+
+.img1{
+  padding-top: 20px;
+width: 100%;
+max-width: 400px;
+height: auto;
+}
+
+.img2{
+  padding-top: 20px;
+width: 100%;
+max-width: 200px;
+height: auto;
+}
+
+
+/* ------------------------------------ Div4 ------------------------------------ */
+
+.div4{
+    padding-top: 20px;
+  background-color: #F4F4F4;
+height: auto;
+}
+.div4 h3{
+  font-size: 30px;
+text-align: left;
+font-weight: bold;
+}
+.div4 p{
+  font-size: 20px;
+text-align: left;
+}
+/* ------------------------------------ Div5 ------------------------------------ */
+.div5{
+  background-color: #F4F4F4;
+height: auto;
+  padding-bottom: 20px;
+}
+#Qsection1{
+  padding-top: 70px;
+  font-size: 20px;
+  text-align: left;
+}
+#Qsection2{
+  padding-top: 70px;
+  font-size: 20px;
+    text-align: left;
+}
+
+
+/* ------------------------------------ Div6 ------------------------------------ */
+.div6{
+    padding-top: 20px;
+height: auto;
+  background-color:#FFFFFF;
+}
+.div6 h3{
+  font-size: 30px;
+text-align: left;
+font-weight: bold;
+}
+.div6 p{
+  font-size: 20px;
+text-align: left;
+}
+/* ------------------------------------ Div7 ------------------------------------ */
+.div7{
+  margin-top: 10px;
+height: auto;
+  background-color:#FFFFFF;
+  text-align: center;
+}
+.div7 img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  width: 100%;
+  max-width: 450px;
+height: auto;
+
+}
+/* ------------------------------------ Div8 ------------------------------------ */
+.div8{
+  text-align: center;
+    height: auto;
+    background-color: #F4F4F4;
+
+}
+.div8 h3{
+  font-size: 30px;
+  padding-top: 10px;
+  font-weight: bold;
+}
+.div8 p{
+  font-size: 20px;
+  padding-top: 10;
+}
+/* ------------------------------------ Div8_1 ------------------------------------ */
+.div8_1{
+  padding-top: 10px;
+  padding-bottom: 15px;
+height: auto;
+  background-color:#F4F4F4;
+  text-align: center;
+}
+#like_img{
+  padding-top: 10px;
+  width: 55%;
+  max-width: 400px;
+height: auto;
+  color: #EB5066;
+  padding-bottom: 10px;
+}
+
+#people_img{
+    padding-top: 10px;
+  width: 55%;
+  max-width: 400px;
+height: auto;
+  color: #EB5066;
+    padding-bottom: 10px;
+}
+
+/* ------------------------------------ Div8_2------------------------------------ */
+.div8_2{
+  padding-top: 10px;
+      padding-bottom: 30px;
+height: auto;
+  background-color:#F4F4F4;
+  text-align: center;
+}
+#like_img{
+  padding-top: 10px;
+  width: 55%;
+  max-width: 400px;
+height: auto;
+  color: #EB5066;
+  padding-bottom: 10px;
+}
+
+#people_img{
+    padding-top: 10px;
+  width: 55%;
+  max-width: 400px;
+height: auto;
+  color: #EB5066;
+    padding-bottom: 10px;
+}
+/* ------------------------------------ Div10 ------------------------------------ */
+.div10{
+      padding-top: 20px;
+height: auto;
+    background-color:#FFFFFF;
+    padding-bottom: 20px;
+}
+.div10 h3{
+  font-size: 30px;
+text-align: center;
+font-weight: bold;
+}
+/* ------------------------------------ Div11 ------------------------------------ */
+.div11 {
+    padding-top: 10px;
+  height: auto;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+.div11 img {
+  width: 100%;
+  max-width: 600px;
+height: auto;
+}
+/* ------------------------------------ Div12 ------------------------------------ */
+.div12 {
+    padding-top: 15px;
+  height: auto;
+  background-color: #FFFFFF;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.div12 img {
+
+  width: 100%;
+  max-width: 600px;
+height: auto;
+}
+/* ------------------------------------ Div13 ------------------------------------ */
+.div13{
+      padding-top: 10px;
+height: auto;
+  background-color:#F4F4F4;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.div13 h3{
+  font-size: 30px;
+text-align: center;
+font-weight: bold;
+}
+/* ------------------------------------ Div14 ------------------------------------ */
+
+.div14{
+  height: auto;
+    background-color:#F4F4F4;
+    text-align: center;
+}
+.div14 img{
+  padding-top: 20px;
+  width: 100%;
+  max-width: 800px;
+height: auto;
+padding-bottom: 30px;
+}
+/* ------------------------------------ Div15 ------------------------------------ */
+.div15 {
+  padding-top: 10px;
+  text-align: center;
+  height: auto;
+  background-color: #FFFFFF;
+}
+
+.div15 h3 {
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.div15 p {
+  text-align: left;
+  font-size: 20px;
+}
+
+.div15 img {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  width: 85%;
+  max-width: 800px;
+height: auto;
+}
+
+/* ------------------------------------ Div16 ------------------------------------ */
+.div16 {
+  padding-top: 10px;
+  height: auto;
+  background-color: #F4F4F4;
+  text-align: left;
+  padding-bottom: 25px;
+}
+
+.div16 h3 {
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.div16 p {
+  text-align: left;
+  font-size: 20px;
+}
+
+.div16 img {
+  padding-top: 25px;
+  width: 100%;
+  max-width: 1000px;
+height: auto;
+}
+/* ------------------------------------ Div17 ------------------------------------ */
+.div17 {
+  height: auto;
+  background-color: #F4F4F4;
+}
+
+.div17 h3 {
+  padding-top: 30px;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.div18 {
+  height: auto;
+  background-color: #F4F4F4;
+  text-align: center;
+}
+/* ------------------------------------ Div18 ------------------------------------ */
+
+.div18 video{
+  padding-bottom: 20px;
+  width: 100%;
+  max-width: 1000px;
+}
+
+/* ------------------------------------ Div19 ------------------------------------ */
+.div19 {
+  padding-top: 10px;
+  height: 200px;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+.div19 h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.div19 p {
+  font-size: 20px;
+}
+
+/* ------------------------------------ Div20 ------------------------------------ */
+.div20 {
+  padding-top: 20px;
+  height: auto;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+.div20 img {
+  width: 100%;
+  max-width: 600px;
+height: auto;
+}
+
+/* ------------------------------------ Div21 ------------------------------------ */
+.div21 {
+  padding-top: 10px;
+  height: auto;
+  background-color: #FFFFFF;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.div21 h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.div21 p {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.div21 button {
+  text-align: center;
+  height: 50px;
+  width: 250px;
+  color: black;
+  background-color: white;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+
+
+/* ------------------------------------ challenge1 ------------------------------------ */
+.challenge1{
+  padding-top: 20px;
+  padding-bottom: 20px;
+height: auto;
+  background-color: #FFFFFF;
+}
+.challenge1 h3{
+  padding-top: 20px;
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+}
+.challenge1 p{
+    text-align: left;
+  font-size: 20px;
+}
+.challenge1 img{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  width: 100%;
+  max-width: 900px;
+height: auto;
+}
+/* ------------------------------------ challenge2 ------------------------------------ */
+.challenge2{
+  padding-top: 20px;
+  padding-bottom: 20px;
+height: auto;
+  background-color:  #F4F4F4;
+}
+.challenge2 h3{
+  padding-top: 20px;
+  text-align: left;
+  font-size: 30px;
+    font-weight: bold;
+}
+.challenge2 p{
+    text-align: left;
+  font-size: 20px;
+}
+.challenge2 img{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  width: 100%;
+  max-width: 900px;
+height: auto;
+}
+/* ------------------------------------ challenge3 ------------------------------------ */
+.challenge3{
+  padding-top: 20px;
+  padding-bottom: 20px;
+height: auto;
+  background-color: #FFFFFF;
+}
+.challenge3 h3{
+  padding-top: 20px;
+  text-align: left;
+  font-size: 30px;
+    font-weight: bold;
+}
+.challenge3 p{
+    text-align: left;
+  font-size: 20px;
+}
+.challenge3 img{
+  padding-top: 10px;
+  width: 100%;
+  max-width: 900px;
+height: auto;
+}
+
+/* ------------------------------------ slider ------------------------------------ */
+
+.mySlides {
+  display: none;
+  margin-bottom: 40px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+/* ------------------------------------footer ------------------------------------ */
+footer {
+  box-shadow: 0 5px 20px #efefef;
+}
+
+.foo {
+  box-shadow: 0 5px 10px #efefef;
+  height: 300px;
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+}
+
+#linkedIn {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+#instagram {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+#Facebook {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+#GitHub {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+#linkedIn_span {
+  color: #5AC8FA;
+  text-decoration: none;
+}
+
+#instagram_span {
+  color: #EA4260;
+  text-decoration: none;
+}
+
+#facebook_span {
+  color: #F5C142;
+  text-decoration: none;
+}
+
+#Github_span {
+  color: #9B7BF6;
+  text-decoration: none;
+}
+
+.social_media1 {
+  font-size: 20px;
+}
+
+.social_media2 {
+  padding-top: 20px;
+  display: inline-block;
+}
+
+.social_media3 {
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+.social_media4 {
+  padding-top: 15px;
+  font-size: 15px;
+}
