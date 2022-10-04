@@ -44,5 +44,5 @@ def port():
 def hello(name):
     return render_template("hello copy.html", fat7i = name)
 
-#if __name__ == "__main__":
+# if __name__ == "__main__":
 #    app.run(host="0.0.0.0",debug=True)
