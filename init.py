@@ -20,7 +20,7 @@ def GasApp():
 
 @app.route("/book")
 def Book():
-    return render_template("Book_Store.html")
+    return render_template("Book_store.html")
 
 @app.route("/bikerent")
 def bikerent():
